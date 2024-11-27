@@ -1,6 +1,6 @@
 {
     "name": "@toan.dq2009/wallet-standard",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "author": "OWallet Team",
     "repository": "https://github.com/owallet-io/wallet-standard",
     "license": "Apache-2.0",
@@ -10,6 +10,11 @@
     "publishConfig": {
         "access": "public"
     },
+    "files": [
+        "lib",
+        "src",
+        "LICENSE"
+    ],
     "type": "module",
     "sideEffects": false,
     "main": "./lib/cjs/index.js",

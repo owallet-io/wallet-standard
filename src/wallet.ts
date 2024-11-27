@@ -50,7 +50,7 @@ export type OWalletSolanaFeature = {
 export class OWalletSolanaWallet implements Wallet {
     readonly #listeners: { [E in StandardEventsNames]?: StandardEventsListeners[E][] } = {};
     readonly #version = '1.0.0' as const;
-    readonly #name = 'owallet-solana' as const;
+    readonly #name = 'OWallet' as const;
     readonly #icon = icon;
     #account: OWalletSolanaWalletAccount | null = null;
     readonly #owalletSolana: OWalletSolana;
