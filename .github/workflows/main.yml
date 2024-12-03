@@ -50,7 +50,7 @@ jobs:
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
       - name: Publish OWallet Wallet Standard
-        id: publish-common
+        id: publish-wallet
         continue-on-error: true
         run: yarn deploy
         env:
