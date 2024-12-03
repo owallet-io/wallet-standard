@@ -1,6 +1,6 @@
 {
-    "name": "@toan.dq2009/wallet-standard",
-    "version": "0.1.9",
+    "name": "@oraichain/owallet-wallet-standard",
+    "version": "0.1.0",
     "author": "OWallet Team",
     "repository": "https://github.com/owallet-io/wallet-standard",
     "license": "Apache-2.0",
@@ -31,7 +31,7 @@
         "tsc": "tsc --build --verbose tsconfig.all.json",
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json",
         "build": "npm run clean && npm run tsc && npm run package",
-        "publish": "yarn publish --access public"
+        "deploy": "yarn publish --access public"
     },
     "dependencies": {
         "@solana/wallet-standard-features": "=1.1.0",
