@@ -56,11 +56,3 @@ jobs:
         env:
           CI: false
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: send result via discord
-        uses: appleboy/discord-action@master
-        with:
-          webhook_id: ${{ secrets.WEBHOOK_ID }}
-          webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
-          username: "GitBot"
-          message: "Repo owallet-wallet-standard has just published. result: ${{ steps.publish.outcome }}."
