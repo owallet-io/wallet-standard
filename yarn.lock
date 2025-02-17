@@ -39,10 +39,10 @@
     "@wallet-standard/base" "^1.0.1"
     "@wallet-standard/features" "^1.0.3"
 
-"@solana/web3.js@=1.58.0":
-  version "1.58.0"
-  resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.58.0.tgz#fe45f46f0ca68ebba109326356728e8aa3cc91ff"
-  integrity sha512-g/vPgN73nIQGDtsAhgbqwRC81Z9aoALPRajNJde4TjeIzvg1aKvjmCJy0YNPZzShAUX/IoPVuiQbmx1go2R+Zw==
+"@solana/web3.js@=1.58.1":
+  version "1.58.1"
+  resolved "https://registry.yarnpkg.com/@solana/web3.js/-/web3.js-1.58.1.tgz#d5bf29256874b299a7102017040af83ae3f8ff1a"
+  integrity sha512-UyQEY42FiagFVjz6A7md9WBPA1dWzQa1SexovzQ0qsZoWxVqDAzHFcluDunCMbiSw43JO3iZfi2QjDC0am9Pzw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@noble/ed25519" "^1.7.0"
